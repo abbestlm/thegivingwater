@@ -1,0 +1,85 @@
+/* Container styles */
+.container {
+    background-color: #f8f9fa;
+    /* Light gray background */
+    padding: 20px;
+    max-width: 1200px;
+    /* Restrict the container width */
+    margin: 0 auto;
+    /* Center align the container */
+}
+
+/* Card styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add subtle shadow */
+}
+
+/* Card body padding */
+.cardBody {
+    padding: 20px;
+}
+
+/* Header styling */
+.title {
+    color: #0033a0;
+    /* Navy blue for the header */
+    font-size: 2rem;
+    /* Increase font size for emphasis */
+    text-align: center;
+    /* Center align the header */
+    margin-bottom: 20px;
+}
+
+/* Section titles styling */
+.sectionTitle {
+    color: #b22234;
+    /* Red for section titles */
+    border-bottom: 2px solid #b22234;
+    /* Underline with red color */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    /* Slightly larger font for section titles */
+}
+
+/* Form control styling */
+.formControl {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    /* Add padding for better text visibility */
+}
+
+.formControl:focus {
+    border-color: #007bff;
+    /* Blue border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+    /* Blue shadow on focus */
+}
+
+/* Button styling */
+.primaryButton {
+    background-color: #b22234;
+    /* Red background */
+    border: none;
+    color: #ffffff;
+    /* White text */
+    padding: 12px 24px;
+    /* Increased padding for a better click area */
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Smooth transitions */
+}
+
+.primaryButton:hover {
+    background-color: #a11c2e;
+    /* Darker red for hover */
+    transform: translateY(-3px);
+    /* Subtle lift effect on hover */
+}

@@ -1,0 +1,77 @@
+.adminHeader {
+  background-color: #003366;
+  /* Deep blue background */
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  /* White text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  border-bottom: 3px solid #bd3d44;
+  /* Red border at the bottom */
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  /* Allows the nav list to take up available space */
+}
+
+.navLink {
+  color: #ffffff;
+  /* White text */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s, padding-bottom 0.3s;
+}
+
+.navLink::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: #bd3d44;
+  /* Red underline */
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  transition: width 0.3s;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.navLink:hover {
+  color: #bd3d44;
+  /* Red text on hover */
+}
+
+.logoutButton {
+  background-color: #bd3d44;
+  /* Red background */
+  color: #ffffff;
+  /* White text */
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* Position the logout button to the far right */
+  margin-left: auto;
+  /* Pushes the button to the far right */
+}
+
+.logoutButton:hover {
+  background-color: #a83229;
+  /* Darker red on hover */
+}

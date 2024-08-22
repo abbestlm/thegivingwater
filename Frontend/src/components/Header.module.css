@@ -1,0 +1,80 @@
+/* Header container */
+.header {
+    background-color: #0033A0;
+    /* Navy Blue background */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    /* White text */
+    margin-bottom: 2rem;
+        border: 1px solid #00274d;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* Ensure title is white */
+}
+
+/* Navigation menu styles */
+.navMenu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navItem {
+    margin: 0;
+}
+
+.navLink {
+    color: #FFFFFF;
+    /* White text */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s, padding-bottom 0.3s;
+}
+
+.navLink::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #FF0000;
+    /* Red highlight color */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    transition: width 0.3s;
+}
+
+.navLink:hover::after {
+    width: 100%;
+}
+
+.navLink:hover {
+    color: #FF0000;
+    /* Red hover color */
+}
+
+/* Logo styles */
+.logo {
+    height: 50px;
+    /* Adjust the size as needed */
+    width: auto;
+}
+
+/* Links around logo and title */
+.logoLink,
+.titleLink {
+    text-decoration: none;
+}

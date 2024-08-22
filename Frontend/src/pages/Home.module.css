@@ -1,0 +1,221 @@
+/* Container styles for the Home page */
+.homeContainer {
+    padding: 20px;
+    background-color: #ffffff;
+    
+    /* White background for a clean look */
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid #00274d;
+    /* Dark blue border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mission section styles */
+.missionSection {
+    margin-bottom: 30px;
+}
+
+.missionSection h2 {
+    font-size: 2rem;
+    color: #b22234;
+    /* Red color */
+    margin-bottom: 10px;
+}
+
+.missionSection p {
+    font-size: 1rem;
+    color: #00274d;
+    /* Dark blue color */
+}
+
+/* Impact section styles */
+.impactSection {
+    margin-bottom: 30px;
+}
+
+.impactSection h2 {
+    font-size: 2rem;
+    color: #b22234;
+    /* Red color */
+    margin-bottom: 10px;
+}
+
+.impactCards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.impactCard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px);
+    border: 2px solid #00274d;
+    /* Dark blue border */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Ensure space is distributed between content and button container */
+}
+
+/* Position the button container at the bottom center */
+.buttonContainer {
+    margin-top: auto;
+    /* Push button container to the bottom */
+    text-align: center;
+    /* Center-align the buttons */
+}
+
+.impactCard h3 {
+    font-size: 1.25rem;
+    color: #0288d1;
+    /* Blue color */
+    margin-bottom: 10px;
+}
+
+.impactCard p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b22234;
+    /* Red background */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.ctaButton:hover {
+    background-color: #00274d;
+    /* Dark blue on hover */
+}
+
+.learnMoreLink {
+    color: #007bff;
+    /* Adjust color as needed */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.learnMoreLink:hover {
+    text-decoration: underline;
+}
+/* Questions section styles */
+.questionsSection {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.questionsSection p {
+    font-size: 1rem;
+    color: #00274d;
+    /* Dark blue color */
+}
+
+.questionsSection a {
+    color: #007bff;
+    /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.questionsSection a:hover {
+    text-decoration: underline;
+}
+/* Song section styles */
+/* Song section styles */
+.songSection {
+    margin-bottom: 30px;
+}
+
+/* Song section styles */
+.songSection {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.songSection h2 {
+    font-size: 1.75rem;
+    color: #b22234;
+    /* Red color */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.songContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.singerImage {
+    width: 120px;
+    /* Smaller image size */
+    height: 120px;
+    /* Maintain aspect ratio */
+    border-radius: 50%;
+    /* Circular image */
+    object-fit: cover;
+    border: 2px solid #b22234;
+    /* Border color to match theme */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.songText {
+    text-align: center;
+    color: #333;
+    max-width: 600px;
+    /* Limiting width for readability */
+}
+
+.songText p {
+    margin: 5px 0;
+}
+
+.songLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.songPlayer {
+    width: 400px;
+    max-width: 500px;
+    /* Limit the width of the player */
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+}
+
+.songLinks a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b22234;
+    /* Red background */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    /* Slightly smaller font size */
+    transition: background-color 0.3s;
+}
+
+.songLinks a:hover {
+    background-color: #00274d;
+    /* Dark blue on hover */
+}

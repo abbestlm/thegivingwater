@@ -1,0 +1,118 @@
+/* Container styles specific to the Chug Challenge page */
+.chugChallengeContainer {
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 12px;
+    /* More rounded corners for the container */
+    border: 2px solid #00274d;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles specific to the Chug Challenge page */
+.chugChallengeTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #b22234;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    border-bottom: 2px solid #00274d;
+    padding-bottom: 10px;
+}
+
+/* Description styles specific to the Chug Challenge page */
+.chugChallengeDescription,
+.chugChallengeDetails,
+.chugChallengeMission,
+.chugChallengeInstructions {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #00274d;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+/* Button styles specific to the Chug Challenge page */
+.ctaButton {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #b22234;
+    border: none;
+    border-radius: 6px;
+    /* Rounded corners for the button */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ctaButton:hover {
+    background-color: #00274d;
+}
+
+.ctaButtonLink {
+    text-decoration: none;
+}
+
+/* Main video container styles */
+.mainVideoContainer {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.mainVideo {
+    width: 100%;
+    max-width: 960px;
+    /* Larger size for the main video */
+    height: 540px;
+    /* Adjust height to maintain aspect ratio */
+    border-radius: 12px;
+    /* Rounded corners for the main video */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Shadow for depth */
+}
+
+/* Other videos container styles */
+.otherVideosContainer {
+    margin: 30px 0;
+}
+
+.videoTitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #b22234;
+    /* Red color for the video title */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Grid layout for other videos */
+.videoGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
+    border-radius: 12px;
+    /* Rounded corners for video container */
+    overflow: hidden;
+    /* Ensure videos do not overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Shadow for depth */
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}

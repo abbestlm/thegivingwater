@@ -1,0 +1,61 @@
+/* Container styles specific to the Donate page */
+.donateContainer {
+    padding: 20px;
+    background-color: #ffffff;
+    /* White background for a clean look */
+    max-width: 1200px;
+        margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid #00274d;
+    /* Dark blue border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles specific to the Donate page */
+.donateTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #b22234;
+    /* Red color */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    border-bottom: 2px solid #00274d;
+    /* Dark blue underline */
+    padding-bottom: 10px;
+}
+
+/* Description styles specific to the Donate page */
+.donateDescription {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #00274d;
+    /* Dark blue */
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+/* Container for the donation form */
+.donationFormContainer {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    /* Adjusted height */
+    width: 100%;
+    margin-top: 20px;
+    /* Add spacing if needed */
+    border: 2px solid #b22234;
+    /* Red border */
+    border-radius: 8px;
+}
+
+/* Styles for the donation form iframe */
+.donationForm {
+    position: absolute;
+    border: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}

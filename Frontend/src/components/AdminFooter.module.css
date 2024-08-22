@@ -1,0 +1,20 @@
+/* Container for the footer */
+.footer {
+    background-color: #00274d;
+    /* Dark blue background */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 3px solid #bd3d44;
+    /* Red border at the top */
+}
+
+/* Paragraph styles in the footer */
+.footer p {
+    margin: 0;
+    font-size: 0.875rem;
+    font-family: 'Arial', sans-serif;
+    color: aliceblue;
+    /* Consistent font style */
+}

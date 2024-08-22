@@ -1,0 +1,177 @@
+/* SponsorsAndPartners.module.css */
+
+/* Container styles */
+.container {
+    padding: 20px;
+        background-color: #ffffff;
+        /* White background for a clean look */
+            max-width: 1200px;
+        margin: 0 auto;
+        border-radius: 8px;
+        border: 2px solid #00274d;
+        /* Dark blue border */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flex container for columns */
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    /* Ensure responsiveness */
+    justify-content: space-between;
+}
+
+/* Section styles */
+.section {
+    width: calc(50% - 10px);
+    /* Adjust width for two columns with some margin */
+    margin-bottom: 40px;
+    border-bottom: 2px solid #00274d;
+    /* Dark blue border for a patriotic touch */
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+    background-color: #fefefe;
+    /* Light white background for readability */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+/* Title styles */
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #b22234;
+    /* Red color for the title */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    /* Emphasize the title */
+}
+
+/* Description styles */
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #00274d;
+    /* Dark blue color for text */
+    text-align: center;
+    line-height: 1.5;
+    /* Improved readability */
+}
+
+/* List styles */
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    list-style-type: none;
+    /* Remove default bullets or markers */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+}
+
+/* Item styles */
+.item {
+    flex: 1 1 200px;
+    max-width: 300px;
+    background-color: #ffffff;
+    /* White background for items */
+    border: 2px solid #00274d;
+    /* Dark blue border for items */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+    padding: 20px;
+    /* Padding for spacing */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.item:hover {
+    transform: translateY(-5px) scale(1.02);
+    /* Zoom effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    /* Increased shadow on hover */
+}
+
+/* Logo styles */
+.logo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    /* Rounded corners for logo */
+    object-fit: contain;
+    /* Preserve aspect ratio */
+}
+
+/* Heading 2 styles */
+h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #b22234;
+    /* Red color for headings */
+    font-weight: bold;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1rem;
+    color: #00274d;
+    /* Dark blue color for paragraphs */
+    line-height: 1.6;
+    /* Improved readability */
+}
+
+/* Contact section styles */
+.contactSection {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    /* Light gray background for contrast */
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Contact title styles */
+.contactTitle {
+    font-size: 1.8rem;
+    color: #b22234;
+    /* Red color for contact title */
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Contact description styles */
+.contactDescription {
+    font-size: 1.2rem;
+    color: #00274d;
+    /* Dark blue color for contact description */
+    margin-bottom: 20px;
+}
+
+/* Contact button styles */
+.contactButton {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #b22234;
+    /* Red button color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contactButton:hover {
+    background-color: #8b1c28;
+    /* Darker red for hover effect */
+    transform: translateY(-3px);
+}

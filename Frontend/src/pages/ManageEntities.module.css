@@ -1,0 +1,136 @@
+/* Container for the Manage Entities page */
+.manageContainer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    /* Light gray background for a neutral base */
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.manageContainer h2 {
+    font-size: 2rem;
+    color: #0033a0;
+    /* Navy blue for the header */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Form container styles */
+.formContainer {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer select,
+.formContainer input,
+.formContainer textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Button styles */
+.formContainer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    /* White text */
+    background-color: #b22234;
+    /* Red background */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Smooth color transition */
+}
+
+.formContainer button:hover {
+    background-color: #a11c2e;
+    /* Darker red for hover effect */
+}
+
+/* List container styles */
+.listsContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.list {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.list h3 {
+    font-size: 1.5rem;
+    color: #0033a0;
+    /* Navy blue for list headers */
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* List container styles */
+.listContainer {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* List item styles */
+.listItem {
+    background-color: #ffffff;
+    /* White background for each item */
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Entity name styles */
+.entityName {
+    font-size: 1rem;
+    color: #333;
+    /* Dark gray color for entity names */
+}
+
+/* Action buttons */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    /* White text */
+    background-color: #b22234;
+    /* Blue background */
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Smooth color transition */
+}
+
+.actions button:hover {
+    background-color: #a11c2e;
+    /* Darker blue for hover effect */
+}

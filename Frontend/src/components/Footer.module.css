@@ -1,0 +1,58 @@
+/* Footer.module.css */
+
+.footer {
+    background-color: #00274d;
+    /* Dark blue background */
+    color: #ffffff;
+    /* White text color */
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid #00274d;
+}
+
+.footer .container {
+    max-width: 1140px;
+    /* Limit the width of the content */
+    margin: 0 auto;
+    /* Center the container */
+}
+
+.footer .row {
+    margin-bottom: 1rem;
+    /* Space between rows */
+}
+
+.footer h5 {
+    margin-bottom: 1rem;
+    /* Space below the section headers */
+    font-size: 1.25rem;
+    /* Slightly larger font size for section headers */
+    color: #ff0000;
+    /* Red color for section headers */
+}
+
+.footer a {
+    color: #ffffff;
+    /* White color for links */
+    text-decoration: none;
+    /* Remove default underline */
+    transition: color 0.3s;
+    /* Smooth color transition */
+}
+
+.footer a:hover {
+    color: #ff0000;
+    /* Red color on hover */
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+.footer .text-center {
+    margin-top: 1rem;
+    /* Space above the copyright text */
+    font-size: 0.875rem;
+    /* Smaller font size for copyright text */
+    color: #ffffff;
+    /* White color for copyright text */
+}

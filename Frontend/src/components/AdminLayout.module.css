@@ -1,0 +1,12 @@
+/* AdminLayout.module.css */
+
+.adminLayout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,121 @@
+/* EditFAQ.module.css */
+
+/* Container styles for the EditFAQ page */
+.editFaqContainer {
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* Light gray background for a neutral base */
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles for the FAQ management */
+.editFaqTitle {
+    font-size: 2rem;
+    color: #0033a0;
+    /* Navy blue color */
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form container styles */
+.faqForm {
+    margin-bottom: 20px;
+}
+
+/* Input and textarea styles */
+.faqInput,
+.faqTextarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    /* Light gray border */
+}
+
+.faqTextarea {
+    height: 100px;
+    /* Height for text area */
+}
+
+/* Button styles */
+.faqButton {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    /* White text */
+    background-color: #b22234;
+    /* Red background */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Smooth color transition */
+}
+
+.faqButton:hover {
+    background-color: #a11c2e;
+    /* Darker red for hover effect */
+}
+
+/* FAQ list styles */
+.faqList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* FAQ item styles */
+.faqItem {
+    background-color: #ffffff;
+    /* White background for each FAQ item */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* FAQ content styles */
+.faqContent h3 {
+    margin: 0 0 10px;
+    font-size: 1.25rem;
+    color: #0033a0;
+    /* Navy blue for FAQ headings */
+}
+
+.faqContent p {
+    margin: 0;
+    color: #333333;
+    /* Dark gray for FAQ content */
+}
+
+/* FAQ action button styles */
+.faqActions {
+    margin-top: 10px;
+}
+
+.faqActionButton {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    /* White text */
+    background-color: #b22234;
+    /* Red background */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Smooth color transition */
+}
+
+.faqActionButton:hover {
+    background-color: #a11c2e;
+    /* Darker red for hover effect */
+}

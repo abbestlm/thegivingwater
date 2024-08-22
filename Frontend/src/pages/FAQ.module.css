@@ -1,0 +1,54 @@
+/* FAQ.module.css */
+
+/* Container styles for the FAQ page */
+.faqContainer {
+    padding: 20px;
+    background-color: #ffffff;
+    /* White background for a clean look */
+    max-width: 1200px;
+        margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid #00274d;
+    /* Dark blue border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles for the FAQ section */
+.faqTitle {
+    font-size: 2rem;
+    color: #b22234;
+    /* Red color */
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border-bottom: 2px solid #00274d;
+    /* Dark blue underline */
+    padding-bottom: 10px;
+}
+
+/* FAQ item styles */
+.faqItem {
+    background-color: #f4f4f4;
+    /* Light grey background for contrast */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #00274d;
+    /* Dark blue border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Question styles */
+.faqQuestion {
+    margin: 0 0 10px;
+    font-size: 1.25rem;
+    color: #b22234;
+    /* Red color for questions */
+}
+
+/* Answer styles */
+.faqAnswer {
+    margin: 0;
+    color: #00274d;
+    /* Dark blue for answers */
+}
